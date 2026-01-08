@@ -45,6 +45,7 @@
     color: #001931;
     font-size: 48px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 /* nav bar */
 nav{
@@ -144,6 +145,11 @@ nav{
     background-color: #F95555;
     border-radius: 50%;
 }
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 /* second brain section  */
 .second-brain{
     display: flex;
@@ -201,7 +207,7 @@ footer{
     margin-bottom: 5px;
 }
 .social a i{
-    color:white;
+    color:#fff;
 }
 .social a i:hover{
     color: #627382;
