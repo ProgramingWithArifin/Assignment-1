@@ -171,3 +171,14 @@ nav{
     background-position: 0 50%;
     margin-top: 20px;
 }
+/* early */
+.early{
+    text-align: center;
+    border-radius: 12px;
+    padding: 80px 40px;
+    background: rgba(247, 246, 242, 1);
+}
+.early button{
+    margin: 24px auto 10px auto;
+}
+/* footer  */
