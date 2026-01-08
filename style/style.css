@@ -212,6 +212,7 @@ footer{
     background-color: #627382;
 }
 .copyright p{
+    margin-top: 6px;
     text-align: center;
     color: #fff;
 }
