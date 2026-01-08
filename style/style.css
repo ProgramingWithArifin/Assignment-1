@@ -182,3 +182,36 @@ nav{
     margin: 24px auto 10px auto;
 }
 /* footer  */
+footer{
+    background-color: #001931;
+    padding: 100px 120px 30px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.social p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.social a i{
+    color:white;
+}
+.social a i:hover{
+    color: #627382;
+}
+.copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #627382;
+}
+.copyright p{
+    text-align: center;
+    color: #fff;
+}
