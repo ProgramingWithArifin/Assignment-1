@@ -41,6 +41,11 @@
     color: #627382;
     margin-top: 16px;
 }
+.sub-heading{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+}
 /* nav bar */
 nav{
     padding: 16px 120px;
@@ -116,11 +121,7 @@ nav{
 .notes{
     text-align: center;
 }
-.notes h2{
-    color: #001931;
-    font-size: 48px;
-    font-weight: 700;
-}
+
 .card-section{
     display: flex;
     justify-content: space-between;
@@ -142,4 +143,31 @@ nav{
     padding: 20px;
     background-color: #F95555;
     border-radius: 50%;
+}
+/* second brain section  */
+.second-brain{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.second-brain img{
+    width: 550px;
+}
+
+.right h3{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.right .list{
+    margin: 40px 0;
+}
+.list ul li{
+    padding-left: 26px;
+    background-image: url("../assets/CheckCircle.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    margin-top: 20px;
 }
